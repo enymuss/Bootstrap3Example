@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Bootstrap 3</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+
+                <a href="#" class="navbar-brand">Tech Site</a>
+
+                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse navHeaderCollapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="active"><a href= "#">Home</a></li>
+                        <li><a href= "#">Blog</a></li>
+                        <li class="dropdown">
+
+                            <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "#">Twitter</a></li>
+                                <li><a href = "#">Facebook</a></li>
+                                <li><a href = "#">Google+</a></li>
+                                <li><a href = "#">Instagram</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li><a href= "#">About</a></li>
+                        <li><a href= "#contact" data-toggle="modal">Contact</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "row">
+
+                <div class = "col-lg-9">
+
+                    <div class="panel panel-default">
+
+                        <div class = "panel-body">
+                        
+                            <div class="page-header">
+                            
+                                <h3>What Every You Want <small>Posted Today</small></h3>
+                             <img class = "featuredImg" src = "https://www.apple.com/euro/iphone/home/f/screens/images/ios8_hero.png" width = "80%">
+                                <p>
+                                Duis vulputate, magna eget convallis convallis, augue justo dapibus ex, quis blandit justo est quis metus. Curabitur finibus nisl orci, sit amet placerat erat viverra id. Mauris fermentum odio a nunc elementum, non venenatis turpis gravida.
+                                
+                                </p>
+                                
+                                <h4>Heading</h4>
+                                <p>Duis vulputate, magna eget convallis convallis, augue justo dapibus ex, quis blandit justo est quis metus. Curabitur finibus nisl orci, sit amet placerat erat viverra id. Mauris fermentum odio a nunc elementum, non venenatis turpis gravida.</p>
+                            </div>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="navbar navbar-default navbar-fixed-bottom">
+
+            <div class="container">
+
+                <p class="navbar-text pull-left">Site built be Richard Szczerba</p>
+                <a href = "#" class="navbar-btn btn-danger btn pull-right">Subscribe on Youtube</a>
+            </div>
+
+        </div>
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Contact Tech Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Duis vulputate, magna eget convallis convallis, augue justo dapibus ex, quis blandit justo est quis metus. Curabitur finibus nisl orci, sit amet placerat erat viverra id. Mauris fermentum odio a nunc elementum, non venenatis turpis gravida.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class = "btn btn-default" data-dismiss = "modal">
+                            Close
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
